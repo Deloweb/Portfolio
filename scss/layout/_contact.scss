@@ -1,0 +1,57 @@
+.contact {
+  padding-bottom: 30px;
+
+  &--title {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Martel", serif;
+  }
+
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0;
+
+    &--title {
+      font-family: "Martel", serif;
+      font-size: 1.2rem;
+      background-color: #5a5f37;
+      color: #919636;
+      padding: 5px;
+    }
+
+    &--content {
+      font-family: "Gabriela", serif;
+      padding-top: 5px;
+    }
+
+    &--image {
+      height: 38px;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .contact__item {
+    &--title {
+      font-size: 1.3rem;
+    }
+
+    &--content {
+      font-size: 1.1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .contact__item {
+    &--title {
+      font-size: 1.4rem;
+    }
+
+    &--content {
+      font-size: 1.2rem;
+    }
+  }
+}

@@ -1,0 +1,88 @@
+.exp {
+  padding-top: 145px;
+  text-align: center;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.image {
+  height: 50px;
+  margin-top: 15px;
+
+  &--large {
+    margin-top: 15px;
+    width: 100px;
+  }
+}
+.experience__item {
+  padding: 15px 0;
+
+  &--date {
+    font-family: "Martel", serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.397);
+  }
+
+  &--content {
+    margin: 0;
+    font-family: "Gabriela", serif;
+  }
+
+  &--place {
+    margin: 0;
+    font-size: 0.85rem;
+    font-style: italic;
+    font-family: "Gabriela", serif;
+  }
+
+  &--card {
+    border-radius: 3%;
+    padding: 10px;
+    background-color: #5a5f3769;
+    margin: 0 10px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .experience__item {
+    &date {
+      font-size: 1.25rem;
+    }
+    &--content {
+      font-size: 1.1rem;
+    }
+    &--place {
+      font-size: 1rem;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .image {
+    height: 70px;
+    &-large {
+      width: 120px;
+    }
+  }
+  .experience--card--right {
+    margin-right: 20px;
+  }
+  .experience--card--left {
+    margin-left: 20px;
+  }
+
+  .experience__item {
+    &--date {
+      font-size: 1.4rem;
+    }
+    &--content {
+      font-size: 1.25rem;
+    }
+    &--place {
+      font-size: 1.15rem;
+    }
+  }
+}

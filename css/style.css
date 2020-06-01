@@ -1,0 +1,262 @@
+* {
+  margin: 0;
+  color: #fffae1; }
+
+.odd {
+  background-color: #5a5f37; }
+
+.even {
+  background-color: #919636; }
+
+.navbar ul {
+  padding: 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style-type: none;
+  height: 50px; }
+
+.navbar__large__screen {
+  display: none; }
+
+@media screen and (min-width: 1200px) {
+  .blank--area {
+    width: 280px; }
+  #navbar {
+    display: none; }
+  .navbar__large__screen {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #fffae1;
+    position: fixed;
+    top: 0;
+    height: 100%;
+    text-align: center;
+    font-size: 1.25rem;
+    font-family: "Gabriela", serif;
+    z-index: 1; }
+    .navbar__large__screen--menu {
+      color: #5a5f37; }
+    .navbar__large__screen ul {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 25px;
+      height: 350px;
+      align-items: center; }
+    .navbar__large__screen--link a {
+      color: #5a5f37;
+      text-decoration: none; }
+  .page__content {
+    display: flex; }
+  .main__content {
+    width: 100%; } }
+
+.navbar__color {
+  background-color: #5a5f37;
+  border-bottom: 1px solid #fffae1; }
+
+.header {
+  background-image: url("../img/background.png");
+  background-repeat: no-repeat;
+  background-size: 130%;
+  background-position: top;
+  margin-bottom: 0; }
+  .header--title {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 3.3rem;
+    padding: 76px 20px 20px 20px;
+    font-family: "Milonga", cursive; }
+
+.menu {
+  color: #fffae1;
+  font-family: "Gabriela", serif;
+  margin: 0; }
+
+.navbar-toggler-color {
+  background-color: #fffae1; }
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fffae1; }
+
+@media screen and (min-width: 768px) {
+  .header--title {
+    padding: 126px 20px 70px 20px;
+    font-size: 4.5rem; } }
+
+@media screen and (min-width: 992px) {
+  .header--title {
+    padding: 156px 20px 100px 20px;
+    font-size: 5.5rem; } }
+
+.pic {
+  text-align: center;
+  padding: 25px; }
+  .pic--profile {
+    width: 60px;
+    border-radius: 50%; }
+
+.about__me__item {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px; }
+  .about__me__item--title {
+    font-family: "Martel", serif;
+    color: #919636;
+    font-size: 1.3rem; }
+  .about__me__item--content {
+    color: #fffae1;
+    font-family: "Gabriela", serif; }
+
+@media screen and (min-width: 768px) {
+  .pic--profile {
+    width: 100px; } }
+
+@media screen and (min-width: 992px) {
+  .pic .profile--pic {
+    width: 130px; }
+  .about__me__item--title {
+    font-size: 1.5rem; }
+  .about__me__item--content {
+    font-size: 1.2rem; } }
+
+.exp {
+  padding-top: 145px;
+  text-align: center;
+  background-image: url("../img/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; }
+
+.image {
+  height: 50px;
+  margin-top: 15px; }
+  .image--large {
+    margin-top: 15px;
+    width: 100px; }
+
+.experience__item {
+  padding: 15px 0; }
+  .experience__item--date {
+    font-family: "Martel", serif;
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin: 0;
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.397); }
+  .experience__item--content {
+    margin: 0;
+    font-family: "Gabriela", serif; }
+  .experience__item--place {
+    margin: 0;
+    font-size: 0.85rem;
+    font-style: italic;
+    font-family: "Gabriela", serif; }
+  .experience__item--card {
+    border-radius: 3%;
+    padding: 10px;
+    background-color: #5a5f3769;
+    margin: 0 10px; }
+
+@media screen and (min-width: 768px) {
+  .experience__itemdate {
+    font-size: 1.25rem; }
+  .experience__item--content {
+    font-size: 1.1rem; }
+  .experience__item--place {
+    font-size: 1rem; } }
+
+@media screen and (min-width: 992px) {
+  .image {
+    height: 70px; }
+    .image-large {
+      width: 120px; }
+  .experience--card--right {
+    margin-right: 20px; }
+  .experience--card--left {
+    margin-left: 20px; }
+  .experience__item--date {
+    font-size: 1.4rem; }
+  .experience__item--content {
+    font-size: 1.25rem; }
+  .experience__item--place {
+    font-size: 1.15rem; } }
+
+.projects {
+  padding-bottom: 60px;
+  text-align: center;
+  text-decoration: none; }
+  .projects :hover {
+    text-decoration: none; }
+  .projects--image {
+    height: 85px;
+    margin-top: 75px; }
+  .projects--titles {
+    padding-top: 55px;
+    margin: 0;
+    font-family: "Gabriela", serif;
+    font-size: 1.125rem;
+    color: #fffae1; }
+  .projects--title {
+    padding-top: 80px; }
+  .projects--content {
+    margin: 0;
+    font-family: "Gabriela", serif;
+    font-size: 0.85rem;
+    color: #fffae1; }
+
+@media screen and (min-width: 768px) {
+  .projects--titles {
+    font-size: 1.3rem; } }
+
+@media screen and (min-width: 998px) {
+  .projects--titles {
+    font-size: 1.5rem; } }
+
+.contact {
+  padding-bottom: 30px; }
+  .contact--title {
+    padding: 30px;
+    text-align: center;
+    font-size: 1.6rem;
+    font-family: "Martel", serif; }
+  .contact__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 0; }
+    .contact__item--title {
+      font-family: "Martel", serif;
+      font-size: 1.2rem;
+      background-color: #5a5f37;
+      color: #919636;
+      padding: 5px; }
+    .contact__item--content {
+      font-family: "Gabriela", serif;
+      padding-top: 5px; }
+    .contact__item--image {
+      height: 38px; }
+
+@media screen and (min-width: 768px) {
+  .contact__item--title {
+    font-size: 1.3rem; }
+  .contact__item--content {
+    font-size: 1.1rem; } }
+
+@media screen and (min-width: 998px) {
+  .contact__item--title {
+    font-size: 1.4rem; }
+  .contact__item--content {
+    font-size: 1.2rem; } }
+
+.footer {
+  margin: 0;
+  text-align: center;
+  background-color: #5a5f37; }
+  .footer__text {
+    margin: 0;
+    padding: 25px;
+    color: #fffae1;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "Gabriela", serif; }

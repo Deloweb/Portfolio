@@ -1,0 +1,44 @@
+.projects {
+  padding-bottom: 60px;
+  text-align: center;
+  text-decoration: none;
+  :hover {
+    text-decoration: none;
+  }
+  &--image {
+    height: 85px;
+    margin-top: 75px;
+  }
+  &--titles {
+    padding-top: 55px;
+    margin: 0;
+    font-family: "Gabriela", serif;
+    font-size: 1.125rem;
+    color: #fffae1;
+  }
+  &--title {
+    padding-top: 80px;
+  }
+  &--content {
+    margin: 0;
+    font-family: "Gabriela", serif;
+    font-size: 0.85rem;
+    color: #fffae1;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .projects {
+    &--titles {
+      font-size: 1.3rem;
+    }
+  }
+}
+
+@media screen and (min-width: 998px) {
+  .projects {
+    &--titles {
+      font-size: 1.5rem;
+    }
+  }
+}

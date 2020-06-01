@@ -1,0 +1,14 @@
+.footer {
+  margin: 0;
+  text-align: center;
+  background-color: #5a5f37;
+
+  &__text {
+    margin: 0;
+    padding: 25px;
+    color: #fffae1;
+    font-weight: bold;
+    font-size: 1.2rem;
+    font-family: "Gabriela", serif;
+  }
+}

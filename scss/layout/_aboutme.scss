@@ -1,0 +1,56 @@
+.pic {
+  text-align: center;
+  padding: 25px;
+
+  &--profile {
+    width: 60px;
+    border-radius: 50%;
+  }
+}
+
+.about__me {
+  &__item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+    &--title {
+      font-family: "Martel", serif;
+      color: #919636;
+      font-size: 1.3rem;
+    }
+    &--content {
+      color: #fffae1;
+      font-family: "Gabriela", serif;
+    }
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pic {
+    &--profile {
+      width: 100px;
+    }
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .pic .profile--pic {
+    width: 130px;
+  }
+  .about__me {
+    &__item {
+      &--title {
+        font-size: 1.5rem;
+      }
+    }
+  }
+
+  .about__me {
+    &__item {
+      &--content {
+        font-size: 1.2rem;
+      }
+    }
+  }
+}

@@ -1,0 +1,363 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+      integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk"
+      crossorigin="anonymous"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gabriela&family=Martel:wght@400;700&family=Milonga&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Mon portfolio</title>
+  </head>
+  <body>
+    <!-- NavBar -->
+    <nav
+      class="navbar navbar-expand-lg navbar-light fixed-top navbar__color"
+      id="navbar"
+    >
+      <div class="container-lg">
+        <p class="menu">Menu</p>
+        <a class="navbar-brand" href="#"></a>
+        <button
+          class="navbar-toggler navbar-toggler-color"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link" href="#"
+              >About me <span class="sr-only">(current)</span></a
+            >
+            <a class="nav-item nav-link" href="#exp">Experience / Studies</a>
+            <a class="nav-item nav-link" href="#projects">Projects</a>
+            <a
+              class="nav-item nav-link"
+              href="#contact"
+              tabindex="-1"
+              aria-disabled="true"
+              >Contacts</a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- Title -->
+    <div class="header">
+      <h1 class="header--title">Deloweb</h1>
+    </div>
+
+    <div class="page__content">
+      <div class="blank--area"></div>
+      <nav class="navbar__large__screen">
+        <p class="navbar__large__screen--menu">Menu</p>
+        <ul>
+          <li class="navbar__large__screen--link">
+            <a href="#about__me">About me</a>
+          </li>
+          <li class="navbar__large__screen--link">
+            <a href="#exp">Experience / Studies</a>
+          </li>
+          <li class="navbar__large__screen--link">
+            <a href="#projects">Projects</a>
+          </li>
+          <li class="navbar__large__screen--link">
+            <a href="#contact">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+      <!-- About Me -->
+      <div class="main__content">
+        <div class="odd">
+          <div class="container-lg">
+            <div class="pic">
+              <img src="img/Photo.PNG" alt="me" class="pic--profile" />
+            </div>
+            <div class="about__me" id="about__me">
+              <div class="about__me__item">
+                <p class="about__me__item--title">Name:</p>
+                <p class="about__me__item--content">Lucien</p>
+              </div>
+              <div class="about__me__item">
+                <p class="about__me__item--title">Last name:</p>
+                <p class="about__me__item--content">Delohen</p>
+              </div>
+              <div class="about__me__item">
+                <p class="about__me__item--title">Age:</p>
+                <p class="about__me__item--content">23</p>
+              </div>
+              <div class="about__me__item">
+                <p class="about__me__item--title">Adress:</p>
+                <p class="about__me__item--content">Billy-Montigny</p>
+              </div>
+              <div class="about__me__item">
+                <p class="about__me__item--title">Mail:</p>
+                <p class="about__me__item--content" id="exp">
+                  lucien.delohen@gmail.com
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience & studies -->
+        <div class="even">
+          <div class="container-lg">
+            <div class="row exp">
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--right"
+                >
+                  <p class="experience__item--date">
+                    August - september:
+                  </p>
+                  <p class="experience__item--content">Stage développeur web</p>
+                  <img src="img/html.png" alt="html" class="image" />
+                  <img src="img/css.png" alt="css" class="image" />
+                  <img src="img/python.png" alt="pyton" class="image" />
+                  <img src="img/js.png" alt="javascript" class="image" />
+                  <img src="img/php.png" alt="php" class="image" />
+                  <img src="img/bootstrap.png" alt="bootstrap" class="image" />
+                </div>
+              </div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--left"
+                >
+                  <p class="experience__item--date">
+                    2020 (in progress)
+                  </p>
+                  <p class="experience__item--content">Développeur web</p>
+                  <p class="experience__item--place">Pop School Lens</p>
+                  <img src="img/popschool.png" alt="pop school" class="image" />
+                </div>
+              </div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--right"
+                >
+                  <p class="experience__item--date">Since january 2020:</p>
+                  <p class="experience__item--content">
+                    Autoformation développement web
+                  </p>
+                  <p class="experience__item--place">
+                    Codeaccademy / openclassroom
+                  </p>
+                </div>
+              </div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--left"
+                >
+                  <p class="experience__item--date">
+                    April 2018 - January 2020:
+                  </p>
+                  <p class="experience__item--content">
+                    Conducteur de presse numérique
+                  </p>
+                  <p class="experience__item--place">St-Laurent Blangy</p>
+                </div>
+              </div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--right"
+                >
+                  <p class="experience__item--date">April 2018:</p>
+                  <p class="experience__item--content">Ouvrier Le Centurion</p>
+                  <p class="experience__item--place">Libercourt</p>
+                </div>
+              </div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--left"
+                >
+                  <p class="experience__item--date">2016:</p>
+                  <p class="experience__item--content">TOEIC (885 pts)</p>
+                  <p class="experience__item--place">
+                    INSTEP formation, Liévin
+                  </p>
+                  <img src="img/TOEIC.png" alt="toeic" class="image--large" />
+                </div>
+              </div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--right"
+                >
+                  <p class="experience__item--date">April - June 2016:</p>
+                  <p class="experience__item--content">
+                    "Technicien" Grupo Antolin IGA
+                  </p>
+                  <p class="experience__item--place">Hénin-Beaumont</p>
+                </div>
+              </div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item"></div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--left"
+                >
+                  <p class="experience__item--date">2014 - 2016:</p>
+                  <p class="experience__item--content">
+                    D.U.T. Mesures Physiques
+                  </p>
+                  <p class="experience__item--content">
+                    Spécialité Techniques Instrumentales
+                  </p>
+                  <p class="experience__item--place">I.U.T. A Lille 1</p>
+                  <img
+                    src="img/lille 1.png"
+                    alt="lille1"
+                    class="image--large"
+                  />
+                </div>
+              </div>
+              <div class="col-6 experience__item">
+                <div
+                  class="experience__item--card experience__item--card--right"
+                >
+                  <p class="experience__item--date">
+                    June 2014:
+                  </p>
+                  <p class="experience__item--content">
+                    Baccalauréat scientique, option S.V.T.
+                  </p>
+                  <p class="experience__item--content">
+                    Spécialité Physique Chimie, mention anglais européen
+                  </p>
+                  <p class="experience__item--place">Lycéen Condorcet, Lens</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Projects -->
+        <div class="odd" id="projects">
+          <div class="container-lg">
+            <div class="row projects">
+              <div class="col-6">
+                <a href="../wordpress"
+                  ><img
+                    src="img/wordpress.png"
+                    alt="wordpress"
+                    class="projects--image"
+                /></a>
+              </div>
+              <div class="col-6">
+                <a href="../wordpress"
+                  ><p class="projects--titles">
+                    Blog de veille de la p6 Masako Wakamyia
+                  </p>
+                  <p class="projects--content">
+                    Développeur web et web mobile
+                  </p></a
+                >
+              </div>
+              <div class="col-6">
+                <a href="../chucknorris/"
+                  ><p class="projects--titles projects--title">
+                    Générateur de punchlines Chuck Norris
+                  </p></a
+                >
+              </div>
+              <div class="col-6">
+                <a href="../chucknorris/"
+                  ><img
+                    src="img/chucknorris.PNG"
+                    alt="chuck norris' fact generator"
+                    class="projects--image"
+                /></a>
+              </div>
+              <div class="col-6">
+                <img
+                  src="img/inprogress.png"
+                  alt="in progress"
+                  class="projects--image"
+                />
+              </div>
+              <div class="col-6">
+                <p class="projects--titles projects--title">
+                  Calculatrice en javascript
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact -->
+        <div class="even">
+          <div class="container-lg">
+            <div class="contact" id="contact">
+              <h3 class="contact--title">
+                Vous pouvez me contacter grâce aux liens suivant:
+              </h3>
+
+              <div class="contact__item">
+                <div class="contact__item--title">Mail:</div>
+                <div class="contact__item--content">
+                  lucien.delohen@gmail.com
+                </div>
+              </div>
+              <div class="contact__item">
+                <div class="contact__item--title">Phone number:</div>
+                <div class="contact__item--content">06 08 97 24 14</div>
+              </div>
+              <div class="contact__item">
+                <div class="contact__item--title">Linkedin:</div>
+                <div>
+                  <a
+                    href="https://www.linkedin.com/in/lucien-delohen-6a9655182/"
+                    ><img
+                      src="img/linkedin.png"
+                      alt="linkedin"
+                      class="contact__item--image"
+                  /></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <div class="odd footer">
+      <p class="footer__text">Made by Deloweb</p>
+    </div>
+
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+      integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
